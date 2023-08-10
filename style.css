@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.home{
+    width: 100%;
+    height: 800px;
+    background: rgb(97, 2, 7);
+}
+.bgimage img{
+    width: 100%;
+    height: 800px;
+}
+.logo img{
+    height: 70px;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    color: white;
+    cursor: pointer;
+}
+.main{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(128, 3, 45); */
+    width: 750px;
+    margin-left: 280px;
+    font-size: medium;
+    color: white;
+    font-weight: 900px;
+    text-transform: uppercase;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.menu-items{
+    margin-top: 40px;
+    font-weight: 600;
+    
+}
+
+.menu-items li:hover{
+    text-decoration: underline;
+}
+
+.login-join{
+    color: white;
+    /* background-color: rgb(241, 207, 207); */
+    margin-top: 35px;
+    margin-left: 190px;
+    font-size: 15px;
+    border: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: solid white
+    
+}
+.content{
+    position: absolute;
+    top: 0;
+    width: 550px;
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+.contenttext{
+    font-size: 30px;
+    transform: scale(1,.80);
+    color: white;
+    letter-spacing: 3px;
+    line-height: 60px;
+    
+    
+}    
+
+.subcontent p{
+    position: absolute;
+    color: white;
+    top: 0;
+    margin-top: 40%;
+}
+.icon{
+    margin-top: 60%;
+    margin-left: 60%;
+    cursor: pointer;
+}
+.section2{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background-color: rgba(228,127,141);
+    top: 800px;
+
+}
+.section2 img{
+    width: 385px;
+    margin-left: 25%;
+}
+
+.content2{
+    position: absolute;
+    top: 0;
+    margin-left: 55%;
+    margin-top: 50px;
+    text-align: left;
+}
+.content2 h2{
+    color: white;
+    line-height:34px;
+    vertical-align:baseline;
+    padding:0px;
+    font-size: 35px;
+    font-style: normal;
+    transform: scale(1,1);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.sinupbutton2{
+    position: absolute;
+    top: 0;
+    margin-top: 55%;
+    background-color: rgb(255, 255, 255);
+    color: var(--color-maroon) !important;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.login2{
+    margin-top: 15px;
+    font-weight: 900;
+    color: rgb(144,13,44);
+}
+.section3{
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    background-color: rgb(144,13,44);
+    margin-top: 30%;
+    text-align: left;
+
+}
+.text{
+    /* text-align: left; */
+    color: white;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.section3 h2{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.section3 p{
+    line-height: 1.5;
+    font-size: 18px;    
+}
+.image3{
+    position: absolute;
+    /* background-color: aqua; */
+    top: 0;
+    width: 45%;
+    height: 80%;
+    margin-top: 74px;
+    margin-left: 22%;
+    text-align: center;
+}
+.image3 img{
+    width: 450px;
+    margin-top: 35px;
+}
+.shopmerchbutton{
+    position: absolute;
+    color: rgb(144,13,44);
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+#buttontext{
+    position: absolute;
+    color: rgb(144,13,44);
+    /* text-align: center; */
+    margin-left: 45px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    cursor: pointer; 
+    font-weight: 900;   
+}
+
+.section4{
+    position: absolute;
+    top: 1550px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0,0,0);
+
+}
+.imgecontainer4{
+    height: 400px;
+    width: 400px;
+    /* background-color: blueviolet; */
+    margin-left: 350px;
+}
+.imgecontainer4 img{
+    width: 360px;
+}
+.textcontainer{
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 30%;
+    height: 80%;
+    text-align: left;
+    margin-left: 55%;
+    margin-top: 5%;
+}
+.textcontainer h1{
+    text-transform: uppercase;    
+    font-weight: 900;
+    font-size: 40px;
+    transform: scale(1,.9);
+}
+.textcontainer p{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.explorbutton{
+    position: absolute;
+    top: 0;
+    color: black;
+    background-color: white;
+    width: 280px;
+    border-radius: 50px;
+    text-align: center;
+    height: 50px;
+    padding: 0;
+    align-content: center;
+    margin-top: 50%;
+    /* cursor: pointer; */
+}
+.explorbutton h3{
+    margin: 15px;
+    text-transform: uppercase;
+    color: rgb(144,13,44);
+    cursor: pointer;
+}
+
+.section5{
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    width: 100%;
+    height:160px;
+    margin-top: 1950px;
+    background-color: rgb(144,13,44);
+    border-top: 2px solid white;
+    /* text-align: center; */
+}
+
+.section5 footer{
+    top: 0;
+    margin-top: 15px;
+    width: 95%;
+    height: 130px;
+
+}
+.footer{
+    position: absolute;
+    top: 0;
+    color: white;
+}
+
+.footerlogo{
+    text-align: left;
+    cursor: pointer;
+}
+
+.footerlogo img{
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0;
+}
+.footerlogo h3{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.footerlist{
+    padding: 0px;
+    top: 0;
+    position: absolute;
+    width: 90%;
+    line-height: 25px;
+    height: 120px;
+    margin-left: 10%;
+    font-style: normal;
+    font-size: 15px;
+    /* background-color: aqua; */
+    cursor: pointer;
+
+}
+.contact{
+    width: 10%;
+    height: 90%;
+    /* background-color: rgb(133, 9, 112); */
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.list1{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    height: 90%;
+    /* background-color: rgb(9, 133, 96); */
+    margin-left: 150px;
+}
+.list2{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    height: 90%;
+    /* background-color: rgb(100, 105, 104); */
+    margin-left: 420px;
+}
+
+.list3{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    height: 90%;
+    /* background-color: rgb(7, 155, 51); */
+    margin-left: 680px;
+}
+.socialmedia{
+    position: absolute;
+    justify-content: space-between;
+    padding: 2px;
+    top: 0;
+    width: 25%;
+    /* background-color: blueviolet; */
+    margin-top: 1%;
+    text-align: center;
+    display: flex;
+    margin-left: 80%;
+}
+.bottom{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(144,13,44);
+    color: white;
+    border-top: 2px solid white;
+    margin-top: 11%;
+    display: flex;
+    
+}
+.bottomtext{
+    margin: 0;
+    width: 100%;
+
+}
+.bottomtext ul{margin-right: 25px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
